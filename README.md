@@ -27,16 +27,13 @@ GestureFlow is a real‐time hand and fingertip tracking system using OpenCV, Me
 - Windows, macOS or Linux
 
 ## Installation
+Make sure you have **uv** installed using [this guide](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```bash
 # Clone the repository
-git clone https://github.com/your‐username/fingertracking.git
-cd fingertracking
+git clone https://github.com/krystofkubica/GestureFlow
+cd GestureFlow
 
-# Create a virtual environment (optional)
-python -m venv .venv
-.\.venv\Scripts\activate     # Windows
-source .venv/bin/activate    # macOS / Linux
-
-# Install dependencies
-pip install -r requirements.txt
+# Run program
+uv run main.py
+```
